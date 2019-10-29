@@ -11,6 +11,7 @@
 **Issues My Application Is Addressing**
 
 *Brief*
+_______
 
 Identified problems: 
 - The australian skydive industry is distinctly undeveloped in the technology sector.
@@ -18,6 +19,7 @@ Identified problems:
 - The only online platforms available for communication (discussions, blogs, event announcements) in the skydive community are facebook groups.
 
 *Extensive*
+__________
 
 Currently there are only **EIGHT** online stores selling skydive equipment nationwide. Out of these eight stores,only **FIVE** sell pre-owned equipment and out of these 5, only **TWO** offer the ability for the user to upload their own listings. 
 
