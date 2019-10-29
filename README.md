@@ -10,15 +10,26 @@
 
 **Issues My Application Is Addressing**
 
-*Brief Description*
+*Brief*
+=======
 
 Identified problems: 
 - The australian skydive industry is distinctly undeveloped in the technology sector.
 - The amount of platforms available to upload your own listings for pre-owned skydive gear is extremely scarce. 
 - The only online platforms available for communication (discussions, blogs, event announcements) in the skydive community are facebook groups.
 
-*Extensive Description* 
+*Extensive* 
+===========
 
+Currently there are only **EIGHT** online stores selling skydive equipment nationwide. Out of these eight stores,only **FIVE** sell pre-owned equipment and out of these 5, only **TWO** offer the ability for the user to upload their own listings. 
+
+To further elaborate... Out of these two who offer this ability, one is simply a classifieds section in the Australian Skydiver Magazine (ASM) and the other is a Facebook group. The ASM does not allow images and is only published once a month, resulting in a longer wait time until the user can potentially have their item sold. 
+
+Furthermore, as a result of the latter being a Facebook group, it does not facilitate the user with easy navigation and other general key UX & UI features that a fully fledged marketplace applications utilize. 
+
+Currently, this facebook group "Skydiving Gear for Sale (New and Used) Australia" is the market leading platform for selling skydive gear in australia. With currently 10,779 members, it is by far receiving the heaviest traffick out of any other online sector in australia when it comes to commerce of skydive equipment. 
+
+After spending time analyzing this platform, I have dissected it's **strengths** & **disadvantages**. As a result, I am able to see the features that I need to implement to successfully compete with it. By incorporating all of the strengths of this platform into my application and compensating for its disadvantages, I will able to compete with it.
 
 **Reason Why These Are Problems That Need Addressing:**
 
@@ -77,7 +88,7 @@ The presentation and associated Slide deck should include:
 
 1. An outline of the problem you were trying to solve by building this particular marketplace app, and why it’s a problem that needs solving.
 
-2. A walkthrough of your app (write a speech beforehand to follow along with).
+2. A walk through of your app (write a speech beforehand to follow along with).
 
 **Presentation Requirements:**
 
