@@ -17,7 +17,7 @@ Identified problems:
 - The amount of platforms available to upload your own listings for pre-owned skydive gear is extremely scarce. 
 - The only online platforms available for communication (discussions, blogs, event announcements) in the skydive community are facebook groups.
 
-*Extensive Description*
+*Extensive Description* 
 
 
 **Reason Why These Are Problems That Need Addressing:**
