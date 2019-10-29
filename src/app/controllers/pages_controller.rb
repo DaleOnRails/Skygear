@@ -1,12 +1,9 @@
 class PagesController < ApplicationController
 
-  #index will be the root homepage that displays all classifieds/listings
-  def index  
-  end
-
+  #9
   def about
   end
-
+  #9
   def contact
   end
 end
