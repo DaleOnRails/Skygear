@@ -27,7 +27,12 @@ Furthermore, as a result of the latter being a Facebook group, it does not facil
 
 Currently, this facebook group "Skydiving Gear for Sale (New and Used) Australia" is the market leading platform for selling skydive gear in australia. With currently 10,779 members, it is by far receiving the heaviest traffick out of any other online sector in australia when it comes to commerce of skydive equipment. 
 
-After spending time analyzing this platform, I have dissected it's **strengths** & **disadvantages**. As a result, I am able to see the features that I need to implement to successfully compete with it. By incorporating all of the strengths of this platform into my application and compensating for its disadvantages, I will able to compete with it.
+After spending time analyzing this platform, I have been able to learn its **strengths** & **disadvantages**. My applications features are based on incorporating the strengths and compensating for its disadvantages so that I will able to compete with it.
+
+Further notes on this can be found in the docs/ folder in this repository:
+(docs/deciding-features.odt)
+(docs/market-research.odt)
+(docs/marketplace-definition.odt)
 
 **Reason Why These Are Problems That Need Addressing:**
 
