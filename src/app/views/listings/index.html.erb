@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>Image</th>
       <th>Item</th>
       <th>Price</th>
       <th>Location</th>
@@ -16,6 +17,7 @@
   <tbody>
     <% @listings.each do |listing| %>
       <tr>
+        <td><%= listing.productimage.attached? ? image_tag(listing.productimage, height: 40) : '' %></td>
         <td><%= listing.item %></td>
         <td><%= listing.price %></td>
         <td><%= listing.location %></td>

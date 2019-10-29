@@ -25,6 +25,7 @@ class ListingsController < ApplicationController
   # POST /listings.json
   def create
     @listing = Listing.new(listing_params)
+    @book.productimage.attach(params[:listing][:productimage])
 
     respond_to do |format|
       if @listing.save
@@ -42,6 +43,8 @@ class ListingsController < ApplicationController
   def update
     respond_to do |format|
       if @listing.update(listing_params)
+        #15
+        @listing.productimage.attach(listing_params[:productimage]) if listing_params[:productimage]
         format.html { redirect_to @listing, notice: 'Listing was successfully updated.' }
         format.json { render :show, status: :ok, location: @listing }
       else
@@ -69,6 +72,6 @@ class ListingsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def listing_params
-      params.require(:listing).permit(:item, :price, :location, :description)
+      params.require(:listing).permit(:item, :price, :location, :description, :productimage)
     end
 end
