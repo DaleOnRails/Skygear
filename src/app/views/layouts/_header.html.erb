@@ -17,6 +17,19 @@
       <li><%= link_to 'About', pages_about_path %></li>
       <li><%= link_to 'Contact', pages_contact_path %></li>
     </ul>
+
+    <!--routes provided by devise gem (see rails routes)-->
+    <!-- links for users to sign in, sign out on the right side of the navbar + user AUTHENTICATION -->
+    <ul class="nav navbar-nav navbar-right">
+    <% if user_signed_in? %>
+      <li><%= link_to "Edit Profile", edit_user_registration_path %></li>
+      <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
+
+    <% else %>
+      <li><%= link_to "Sign In", new_user_session_path %></li>
+      <li><%= link_to "Sign Up", new_user_registration_path %></li>
+    <% end %>
+    </ul>
   </div>
   <!-- /.navbar-collapse -->
 </nav>
