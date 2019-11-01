@@ -1,3 +1,6 @@
+<script src="https://product-gallery.cloudinary.com/all.js" type="text/javascript">
+</script>
+<div id="wrap"></div>
 <div class="row">
   <div class="col-md-6">
     <div class="thumbnail">
@@ -14,3 +17,8 @@
 
 <%= link_to 'Edit', edit_listing_path(@listing), class: "btn btn-link" %>
 <%= link_to 'Back', listings_path, class: "btn btn-link" %>
+
+<script>
+  cloudinary.galleryWidget({
+    container:'#thumbnail',
+    })
