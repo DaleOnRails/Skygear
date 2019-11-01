@@ -10,6 +10,7 @@ class ListingsController < ApplicationController
   # GET /listings/1
   # GET /listings/1.json
   def show
+  @foo = "bar"
   end
 
   # GET /listings/new
