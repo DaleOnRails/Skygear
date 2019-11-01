@@ -6,6 +6,8 @@
 
 3. Create Show link attached to listing image so user can click img to go to show page!
 
+4. Install "Friendly ID" Gem to application and configure routes to display as i want!
+
 **---------------------------------------------------**
 
 # Documentation 
