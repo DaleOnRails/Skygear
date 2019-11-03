@@ -1,14 +1,19 @@
 class ListingsController < ApplicationController
   before_action :set_listing, only: [:show, :edit, :update, :destroy]
   # Authorization: for users who are NOT signed in.
-  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy, :seller]
   # Authorization: for signed in users
   before_action :check_user, only: [:edit, :update, :destroy]
+
+  # When current_user goes to the seller page this method will only display the listings the current user owns
+  def seller
+    @listings = Listing.where(user: current_user).order("created_at DESC")
+  end
 
   # GET /listings
   # GET /listings.json
   def index
-    @listings = Listing.all
+    @listings = Listing.all.order("created_at DESC")
     @listings.length
   end
 
