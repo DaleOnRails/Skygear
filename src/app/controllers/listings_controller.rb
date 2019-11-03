@@ -5,13 +5,13 @@ class ListingsController < ApplicationController
   # GET /listings.json
   def index
     @listings = Listing.all
-    p @listings.length
+    @listings.length
   end
 
   # GET /listings/1
   # GET /listings/1.json
   def show
-  @foo = "bar"
+    @foo = "bar"
   end
 
   # GET /listings/new
@@ -27,11 +27,11 @@ class ListingsController < ApplicationController
   # POST /listings.json
   def create
     @listing = Listing.new(listing_params)
-    @listing.productimage.attach(params[:listing][:productimage])
+    @listing.productimage.attach(listing_params[:productimage])
 
     respond_to do |format|
       if @listing.save
-        format.html { redirect_to @listing, notice: 'Listing was successfully created.' }
+        format.html { redirect_to @listing, notice: "Listing was successfully created." }
         format.json { render :show, status: :created, location: @listing }
       else
         format.html { render :new }
@@ -47,7 +47,7 @@ class ListingsController < ApplicationController
       if @listing.update(listing_params)
         #15
         @listing.productimage.attach(listing_params[:productimage]) if listing_params[:productimage]
-        format.html { redirect_to @listing, notice: 'Listing was successfully updated.' }
+        format.html { redirect_to @listing, notice: "Listing was successfully updated." }
         format.json { render :show, status: :ok, location: @listing }
       else
         format.html { render :edit }
@@ -61,19 +61,20 @@ class ListingsController < ApplicationController
   def destroy
     @listing.destroy
     respond_to do |format|
-      format.html { redirect_to listings_url, notice: 'Listing was successfully destroyed.' }
+      format.html { redirect_to listings_url, notice: "Listing was successfully destroyed." }
       format.json { head :no_content }
     end
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_listing
-      @listing = Listing.find(params[:id])
-    end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def listing_params
-      params.require(:listing).permit(:item, :price, :location, :description, :productimage)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_listing
+    @listing = Listing.find(params[:id])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def listing_params
+    params.require(:listing).permit(:item, :price, :location, :description, :productimage)
+  end
 end

@@ -80,3 +80,5 @@ gem "cloudinary", "~> 1.12"
 gem "activestorage-cloudinary-service", "~> 0.2.3"
 
 gem 'rubocop-rspec', '~> 1.27'
+
+gem 'active_storage_validations'
