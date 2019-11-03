@@ -17,6 +17,8 @@ class ListingsController < ApplicationController
   # GET /listings/new
   def new
     @listing = Listing.new
+    # When a user creates a listing the user_id is assigned to the listing so that an association can be established!
+    @listing.user_id = current_user.id
   end
 
   # GET /listings/1/edit
