@@ -17,8 +17,6 @@ class ListingsController < ApplicationController
   # GET /listings/new
   def new
     @listing = Listing.new
-    # When a user creates a listing the user_id is assigned to the listing so that an association can be established!
-    @listing.user_id = current_user.id
   end
 
   # GET /listings/1/edit
@@ -30,6 +28,7 @@ class ListingsController < ApplicationController
   def create
     @listing = Listing.new(listing_params)
     @listing.productimage.attach(listing_params[:productimage])
+    @listing.user_id = current_user.id
 
     respond_to do |format|
       if @listing.save
@@ -77,6 +76,6 @@ class ListingsController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def listing_params
-    params.require(:listing).permit(:item, :price, :location, :description, :productimage)
+    params.require(:listing).permit(:item, :price, :location, :description, :productimage, :user_id)
   end
 end
