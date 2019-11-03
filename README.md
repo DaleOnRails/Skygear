@@ -1,5 +1,7 @@
 # To-Do
 
+**GENERAL:**
+
 1. Add dynamic styling to page links so that the link of current page is either unseen or different (active) color
 
 2. Merge feature branch with master branch.
@@ -7,6 +9,14 @@
 3. Create Show link attached to listing image so user can click img to go to show page!
 
 4. Install "Friendly ID" Gem to application and configure routes to display as i want!
+
+5. Assign roles to users with rolify gem (see rails authentication app and canvas!!!)
+
+**TESTING:**
+
+1. 'Require' rubocop-rspec for the gem/extension to work with rspec (follow instructions on github homepage)
+
+2. 'Require' RSpec and cover code with testing 
 
 **---------------------------------------------------**
 
