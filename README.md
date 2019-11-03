@@ -12,6 +12,9 @@
 
 5. Assign roles to users with rolify gem (see rails authentication app and canvas!!!)
 
+6. Instead of using default HTML size attributes for pics figure out how to use cloudinaries methods so i can resize without affecting image ratio's.
+
+
 **TESTING:**
 
 1. 'Require' rubocop-rspec for the gem/extension to work with rspec (follow instructions on github homepage)
