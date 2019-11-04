@@ -1,6 +1,8 @@
 class Listing < ApplicationRecord
   has_one_attached :productimage
   belongs_to :user
+  # Second hand marketplaces such as gumtree typically only sell individual items
+  has_one :order
 
   validates :item, :price, :location, :description, presence: true
   validates :price, numericality: { greater_than: 0 }
