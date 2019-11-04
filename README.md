@@ -1,27 +1,70 @@
 # To-Do
 
-**GENERAL:**
+**MAIN:**---------------------------------------------
 
-1. Add dynamic styling to page links so that the link of current page is either unseen or different (active) color
+*FEATURES*
 
-2. Merge feature branch with master branch.
+- Add dynamic styling to page links so that the link of current page is either unseen or different (active) color
 
-3. Create Show link attached to listing image so user can click img to go to show page!
+- Have *TWO* options for buying items
+ => *1.* Buy it now option (user buys item at listing price and goes straight to payment)
+ => *2.* Make an offer option (Same as gumtree, user enters offer price with a message to the seller included)
+ => *3.* Allow 'checkout as guest' option.
 
-4. Install "Friendly ID" Gem to application and configure routes to display as i want!
-
-5. Assign roles to users with rolify gem (see rails authentication app and canvas!!!)
-
-6. Instead of using default HTML size attributes for pics figure out how to use cloudinaries methods so i can resize without affecting image ratio's.
+- Have a 'discussion/comments' section for listings where buyers can ask sellers questions about the listing. 
+=> *1.* This will be displayed publicly so that it may answer questions other buyers may have. 
+=> *2.* Only signed in users will be able to comment on listings!
 
 
-**TESTING:**
+*VALIDATIONS/SECURITY*
 
-1. 'Require' rubocop-rspec for the gem/extension to work with rspec (follow instructions on github homepage)
+- Add phone number validations for order form
 
-2. 'Require' RSpec and cover code with testing 
 
-**---------------------------------------------------**
+**EXTRA:**---------------------------------------------
+
+- Install "Friendly ID" Gem to application and configure routes to display as i want!
+
+- Assign roles to users with rolify gem (see rails authentication app and canvas!!!)
+
+**TESTING:**--------------------------------------------
+
+- 'Require' rubocop-rspec for the gem/extension to work with rspec (follow instructions on github homepage)
+
+- 'Require' RSpec and cover code with testing 
+
+**WEB-DESIGN:**
+
+*Web-Design-To-Do:**-------------------------------------
+
+- Have a splash page will background image covering whole screen.
+=> *1.* Will have two boxes - SHOP / CHAT
+=> *2.* (See 'definitely not etsy' github assignment from last cohort for reference!)
+
+- Add overlay effect to website banner
+
+- Make shop banner a slide-deck with multiple slides advertising what features I have!!!
+
+- Get feedback on shop banner to see if it has to much text or not.
+
+- Get different sized versions of all site images to use for different devices to increase load time
+
+
+*Color list (Good and Bad):*-----------------------------
+
+Banner Text - BAD:
+
+1. Yellow 
+
+Banner Text - GOOD:
+
+1. #E7DFDD
+
+
+
+
+
+**-----------------------------------------------------------------------------------------------------**
 
 # Documentation 
 

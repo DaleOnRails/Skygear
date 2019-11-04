@@ -3,15 +3,14 @@ class OrdersController < ApplicationController
   # Only allow signed in users to place orders
   before_action :authenticate_user!
 
-  # GET /orders
-  # GET /orders.json
-  def index
-    @orders = Order.all
+  # Tells rails to display all listings the 'current_user' is selling
+  def sales
+    @orders = Order.all.where(seller: current_user).order("created_at DESC")
   end
 
-  # GET /orders/1
-  # GET /orders/1.json
-  def show
+  # Tells rails to display all listings the 'current_user' has purchased
+  def purchases
+    @orders = Order.all.where(buyer: current_user).order("created_at DESC")
   end
 
   # GET /orders/new
@@ -21,19 +20,17 @@ class OrdersController < ApplicationController
     @listing = Listing.find(params[:listing_id])
   end
 
-  # GET /orders/1/edit
-  def edit
-  end
-
   # POST /orders
   # POST /orders.json
   def create
     @order = Order.new(order_params)
     # Orders are assigned the listing_id in routes
     @listing = Listing.find(params[:listing_id])
-    @seller = @listing.user
-    @order.listing_id = @listing.id
 
+    # Tells rails seller is equal to the user who created the listing
+    @seller = @listing.user
+    # Order ID = listing ID
+    @order.listing_id = @listing.id
     # Tells rails to set the 'buyer_id' column to current user placing the order.
     @order.buyer_id = current_user.id
     @order.seller_id = @seller.id
@@ -46,30 +43,6 @@ class OrdersController < ApplicationController
         format.html { render :new }
         format.json { render json: @order.errors, status: :unprocessable_entity }
       end
-    end
-  end
-
-  # PATCH/PUT /orders/1
-  # PATCH/PUT /orders/1.json
-  def update
-    respond_to do |format|
-      if @order.update(order_params)
-        format.html { redirect_to @order, notice: "Order was successfully updated." }
-        format.json { render :show, status: :ok, location: @order }
-      else
-        format.html { render :edit }
-        format.json { render json: @order.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  # DELETE /orders/1
-  # DELETE /orders/1.json
-  def destroy
-    @order.destroy
-    respond_to do |format|
-      format.html { redirect_to orders_url, notice: "Order was successfully destroyed." }
-      format.json { head :no_content }
     end
   end
 
