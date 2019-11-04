@@ -7,7 +7,7 @@
 - Add dynamic styling to page links so that the link of current page is either unseen or different (active) color
 
 - Have *TWO* options for buying items
- => *1.* Buy it now option (user buys item at listing price and goes straight to payment)
+ => *1.* Buy it now option (user buys item at listing price and goes straight to payment) **DONE**
  => *2.* Make an offer option (Same as gumtree, user enters offer price with a message to the seller included)
  => *3.* Allow 'checkout as guest' option.
 
@@ -15,8 +15,13 @@
 => *1.* This will be displayed publicly so that it may answer questions other buyers may have. 
 => *2.* Only signed in users will be able to comment on listings!
 
+- Have a *Wishlist* feature in (name) drop down menu section. Plus love-heart/wishlist buttons on items to allow users to add items to the wishlist!!
 
-*VALIDATIONS/SECURITY*
+- Enable a Seller Rating System using 'upvote' gem or something similar!
+
+-----------------------------------------------------
+
+**VALIDATIONS/SECURITY**
 
 - Add phone number validations for order form
 
@@ -37,11 +42,11 @@
 
 *Web-Design-To-Do:**-------------------------------------
 
-- Have a splash page will background image covering whole screen.
-=> *1.* Will have two boxes - SHOP / CHAT
+- Have a splash page with background image covering whole screen.
+=> *1.* Will have two 'enter' boxes - SHOP / CHAT
 => *2.* (See 'definitely not etsy' github assignment from last cohort for reference!)
 
-- Add overlay effect to website banner
+- Add overlay effect to website banner (default dark and light when user hovers over it)
 
 - Make shop banner a slide-deck with multiple slides advertising what features I have!!!
 
@@ -59,6 +64,19 @@ Banner Text - BAD:
 Banner Text - GOOD:
 
 1. #E7DFDD
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
