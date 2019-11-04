@@ -70,3 +70,23 @@ body {
     font-size: 18px;
   }
 }
+
+// Image + text for homepage jumbotron banner
+.jumbotron {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('skydiving_person_sport_man_skydive-78057.jpg!d') no-repeat;
+  background-position: absolute;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+
+  h1, h2 {
+  font-family: georgia, serif;
+  color: #E7DFDD;
+  text-shadow: 5px 5px 5px #151c1f;
+  }
+}
+
+
+
+
