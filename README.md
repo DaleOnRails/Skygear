@@ -81,7 +81,8 @@ Banner Text - GOOD:
 
 
 
-
+**-----------------------------------------------------------------------------------------------------**
+**-----------------------------------------------------------------------------------------------------**
 **-----------------------------------------------------------------------------------------------------**
 
 # Documentation 
@@ -118,11 +119,11 @@ Further notes on this can be found in the docs/ folder in this repository:
 
 **A link to your deployed app:**
 
-https://limitless-woodland-93821.herokuapp.com/ 
+[](https://limitless-woodland-93821.herokuapp.com/)
 
 **A link to your GitHub repository:**
 
-https://github.com/fudomyo-hub/skygear
+[](https://github.com/fudomyo-hub/skygear)
 
 ## Description 
 
@@ -139,11 +140,28 @@ To centralize and facilitate the buying and selling of pre-owned skydiving gear 
 
 **Tech stack (e.g. html, css, deployment platform, etc):**
 
+
+
+**-------------------------------------------------------------------------------------------------------**
+# Design / PLanning 
+
 ## User Stories
 
-## Wireframes
+## Mood Board
 
-## Entity Relationship Diagram & Abstractions
+Link to the Pinterest Mood Board for 'Skygear':
+[](https://pin.it/junkj27ujyqolk)
+
+## Mockup 
+
+## Wireframes (Five Versions For Various Screen Sizes)
+
+
+## Entity Relationship Diagram (ERD)
+
+(DEV-NOTE: Use Figma's Flow Chart Maker)
+
+## Entity Relationship (ERD) Description / Abstractions
 
 **Explain the different high-level components (abstractions) in your app:**
 
