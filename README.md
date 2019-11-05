@@ -109,9 +109,9 @@ Currently, this facebook group "Skydiving Gear for Sale (New and Used) Australia
 After spending time analyzing this platform, I have been able to learn its **strengths** & **disadvantages**. My applications features are based on incorporating the strengths and compensating for its disadvantages so that I will able to compete with it.
 
 Further notes on this can be found in the docs/ folder in this repository:
-(docs/deciding-features.odt)
-(docs/market-research.odt)
-(docs/marketplace-definition.odt)
+[Feature Planning Document](docs/deciding-features.odt)
+[Market Research Document](docs/market-research.odt)
+[Marketplace Research Document](docs/marketplace-definition.odt)
 
 **Reason Why These Are Problems That Need Addressing:**
 
