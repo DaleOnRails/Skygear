@@ -117,13 +117,9 @@ Further notes on this can be found in the docs/ folder in this repository:
 
 
 
-**A link to your deployed app:**
+**A link to your deployed app:** [Skygear.com.au](https://limitless-woodland-93821.herokuapp.com/)
 
-[Skygear.com.au](https://limitless-woodland-93821.herokuapp.com/)
-
-**A link to your GitHub repository:**
-
-[Github Repository for Skygear](https://github.com/fudomyo-hub/skygear)
+**A link to your GitHub repository:** [Github Repository for Skygear](https://github.com/fudomyo-hub/skygear)
 
 ## Description 
 
