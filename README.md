@@ -119,11 +119,11 @@ Further notes on this can be found in the docs/ folder in this repository:
 
 **A link to your deployed app:**
 
-[](https://limitless-woodland-93821.herokuapp.com/)
+[Skygear.com.au](https://limitless-woodland-93821.herokuapp.com/)
 
 **A link to your GitHub repository:**
 
-[](https://github.com/fudomyo-hub/skygear)
+[Github Repository for Skygear](https://github.com/fudomyo-hub/skygear)
 
 ## Description 
 
@@ -150,7 +150,7 @@ To centralize and facilitate the buying and selling of pre-owned skydiving gear 
 ## Mood Board
 
 Link to the Pinterest Mood Board for 'Skygear':
-[](https://pin.it/junkj27ujyqolk)
+[Skygear Mood Board](https://pin.it/junkj27ujyqolk)
 
 ## Mockup 
 
