@@ -1,4 +1,9 @@
-# To-Do
+# ------------------------------------NON-README.md--To-Do-------------------------------------------
+
+**AFTER ASSIGNMENT SUBMISSION:** 
+
+- Find a way to error handle .odt, .tar and .zip content-type attachments 
+
 
 **MAIN:**---------------------------------------------
 
@@ -40,7 +45,7 @@
 
 **WEB-DESIGN:**
 
-*Web-Design-To-Do:**-------------------------------------
+**Web-Design-To-Do:**-------------------------------------
 
 - Have a splash page with background image covering whole screen.
 => *1.* Will have two 'enter' boxes - SHOP / CHAT
@@ -54,36 +59,79 @@
 
 - Get different sized versions of all site images to use for different devices to increase load time
 
-
-*Color list (Good and Bad):*-----------------------------
-
-Banner Text - BAD:
-
-1. Yellow 
-
-Banner Text - GOOD:
-
-1. #E7DFDD
+- Enable preload so that users don't see the images loading when viewing my site!!!
 
 
+**Color list Scheme For Site:**-----------------------------
+
+*Primary Color:* #F5F5F1
+
+- Body / Page Background Color
+
+*Secondary Color:* #EFEFEB
+
+- Navbar Background Color
+
+*Third Color:* #F76C6C
+
+- 'Skygear' Logo Color
+
+*Fourth Color:* #0192B5
+
+- Page Links Color
+
+**Font Pair for Site:**
+
+Primary Text:
+*Montserrat*
+
+- Logo 
+- Headings 
+
+Secondary Text:
+*Merriweather*
+
+- Descriptions etc.
 
 
+**Web Design IDEAS:**-------------------------------------
+
+1. Could have three bouncing fullstops pop up at end of skygear logo to simulate loading when user clicks 
+Inspiration: https://waaark.com/vision/
+
+2. Could have strikethrough on link the user is currently on to show current page instead of color change.
+
+**Logo Ideas:**
+
+1. Shark for the logo
+
+**-------------------------------------------------------------------------------------------------------**
+**-------------------------------------------------------------------------------------------------------**
+# ------------------------------------NON-README.md--Assignment-Instructions---------------------------------
 
 
+## Slide deck (Repo-location: ppt/)
 
+You must present the plan for your website and submit your slides which will form the basis of a professional report.
 
+The presentation and associated Slide deck should include:
 
+1. An outline of the problem you were trying to solve by building this particular marketplace app, and why it’s a problem that needs solving.
 
+2. A walk through of your app (write a speech beforehand to follow along with).
 
+**Presentation Requirements:**
 
+1. Be no longer than 10 minutes.
 
+2. Utilise the submitted Slide deck.
 
-
+3. Answer any questions asked by my Instructor and cohort.
 
 
 **-----------------------------------------------------------------------------------------------------**
 **-----------------------------------------------------------------------------------------------------**
-**-----------------------------------------------------------------------------------------------------**
+**-----------------------------------------------README-DOCUMENTATION---------------------------------**
 
 # Documentation 
 
@@ -115,6 +163,13 @@ Further notes on this can be found in the docs/ folder in this repository:
 
 **Reason Why These Are Problems That Need Addressing:**
 
+-
+
+-
+
+-
+
+-
 
 
 **A link to your deployed app:** [Skygear.com.au](https://limitless-woodland-93821.herokuapp.com/)
@@ -137,20 +192,37 @@ To centralize and facilitate the buying and selling of pre-owned skydiving gear 
 **Tech stack (e.g. html, css, deployment platform, etc):**
 
 
-
 **-------------------------------------------------------------------------------------------------------**
-# Design / PLanning 
+**-------------------------------------------------------------------------------------------------------**
+**-------------------------------------------------------------------------------------------------------**
+
+# Design / Planning 
 
 ## User Stories
 
 ## Mood Board
 
-Link to the Pinterest Mood Board for 'Skygear':
-[Skygear Mood Board](https://pin.it/junkj27ujyqolk)
+Link to the Pinterest Mood Board for 'Skygear': [Skygear Mood Board](https://pin.it/junkj27ujyqolk)
 
-## Mockup 
+Screenshots:
 
-## Wireframes (Five Versions For Various Screen Sizes)
+
+## Wireframes (*Five Versions For Various Screen Sizes*)
+
+Link to Figma Wireframes (Live Version:): []()
+
+Link to Figma Mockup PDF (Doc Version): []()
+
+Screenshots:
+
+
+## Mockup (*Five Versions For Various Screen Sizes*)
+
+Link to Figma Mockup (Live Version): []()
+
+Link to Figma Mockup PDF (Doc Version): []()
+
+Screenshots:
 
 
 ## Entity Relationship Diagram (ERD)
@@ -173,22 +245,17 @@ Link to the Pinterest Mood Board for 'Skygear':
 
 **Describe the way tasks are allocated and tracked in your project:**
 
-**--------------------------------------------**
+Screenshots:
 
-## Slide deck (Repo-location: ppt/)
 
-You must present the plan for your website and submit your slides which will form the basis of a professional report.
+#  Challenges Faced / Lessons Learned
 
-The presentation and associated Slide deck should include:
+-
 
-1. An outline of the problem you were trying to solve by building this particular marketplace app, and why it’s a problem that needs solving.
+-
 
-2. A walk through of your app (write a speech beforehand to follow along with).
+-
 
-**Presentation Requirements:**
+-
 
-1. Be no longer than 10 minutes.
-
-2. Utilise the submitted Slide deck.
-
-3. Answer any questions asked by my Instructor and cohort.
+-
