@@ -34,9 +34,9 @@ body {
 
 // Style for 'Skygear' brand name
 .navbar-default .navbar-brand {
-  font-family: georgia, serif;
+  font-family: Montserrat;
   font-weight: 400;
-  color: #d5641c;
+  color: #F76C6C;
   font-size: 30px;
 }
 
@@ -67,6 +67,7 @@ body {
     font-size: 25px;
   }
   p {
+    white-space: pre-line;
     font-size: 18px;
   }
 }

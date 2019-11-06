@@ -37,7 +37,6 @@ GEM
       actionpack (= 5.2.3)
       activerecord (= 5.2.3)
       marcel (~> 0.3.1)
-    activestorage-cloudinary-service (0.2.3)
     activesupport (5.2.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
@@ -279,13 +278,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activestorage-cloudinary-service (~> 0.2.3)
   bootsnap (>= 1.1.0)
   bootstrap-sass (~> 3.4.1)
   byebug
   capybara (>= 2.15)
   chromedriver-helper
-  cloudinary (~> 1.12)
+  cloudinary
   coffee-rails (~> 4.2)
   devise (~> 4.7)
   jbuilder (~> 2.5)
