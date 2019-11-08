@@ -64,6 +64,8 @@
 
 **Color list Scheme For Site:**-----------------------------
 
+-----DEPRECATED / BACKUP SCHEME---------
+
 *Primary Color:* #F5F5F1
 
 - Body / Page Background Color
@@ -79,6 +81,27 @@
 *Fourth Color:* #0192B5
 
 - Page Links Color
+
+----NEW COLOUR SCHEME------
+
+*Primary Color:* #F5F5F1
+
+- Body / Page Background Color
+
+*Secondary Color:* #e7dfdd
+
+- Navbar Background Color
+
+*Third Color:* #C06014
+
+- 'Skygear' Logo Color / Important Highlights
+
+*Fourth Color:* #000000
+
+- Page Links Color
+
+*Fifth Colour:* #EDDBCD 
+
 
 **Font Pair for Site:**
 
