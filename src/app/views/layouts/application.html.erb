@@ -2,21 +2,21 @@
 <html>
 
 <head>
-  <title>Skygear</title>
-  <%= csrf_meta_tags %>
-  <%= csp_meta_tag %>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <title>Skygear</title>
 </head>
 
 <body>
-  <!-- 14 -->
+<div class="footer-positioning">
+
   <%= render 'layouts/header' %>
 
 <div class="container">
-
-  <!-- Styles notice and success alerts NOT error alerts. Note: alerts in rails 4.1 onwards are strings not symbols-->
+  <!-- Styling for notice and success alerts NOT error alerts-->
   <% flash.each do |name, msg| %>
     <% if msg.is_a?(String) %>
       <div class="alert alert-<%= name.to_s == "notice" ? "success" : "danger" %> alert-dismissable">
@@ -27,11 +27,9 @@
   <% end %>
 
   <%= yield %>
-  
-  <!-- 14 -->
-  <%= render 'layouts/footer' %>
 </div>
+</div>
+  <%= render 'layouts/footer' %>
 
 </body>
-  
 </html>

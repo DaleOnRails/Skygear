@@ -12,9 +12,11 @@ class ListingsController < ApplicationController
 
   # GET /listings
   # GET /listings.json
+  # Redirect to stop users from typing in page numbers in the url where no listings exist.
   def index
-    @listings = Listing.all.order("created_at DESC")
-    @listings.length
+    @listings = Listing.paginate(page: params[:page], per_page: 20)
+    redirect_to root_path if @listings.empty?
+    # @listings.length
   end
 
   # GET /listings/1
