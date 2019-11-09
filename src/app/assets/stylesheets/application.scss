@@ -241,12 +241,15 @@ a.product-button:focus {
 footer {
   background-color: #333;
   padding: 50px;
-  font-size: 80%;
+  font-size: 110%;
   width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
 }
 
 .footer-positioning {
-    min-height: calc(100vh - 95px); 
+  min-height: calc(100vh - 95px);
 }
 
 .footer-nav {
@@ -257,6 +260,7 @@ footer {
 .social-links {
   list-style: none;
   float: right;
+  top: -20px;
 }
 
 .footer-nav li,
@@ -288,7 +292,7 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-  font-size: 160%;
+  font-size: 150%;
 }
 
 .ion-social-facebook,
@@ -313,12 +317,6 @@ footer {
 
 .ion-social-instagram:hover {
   color: #517fa4;
-}
-
-footer p {
-  color: #888;
-  text-align: center;
-  margin-top: 20px;
 }
 
 //---------------------TO-DO!!!--------------------------------------------------------
