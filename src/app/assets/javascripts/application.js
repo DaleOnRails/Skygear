@@ -12,7 +12,6 @@
 //
 //
 //= require jquery
-//= require jquery.turbolinks
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require activestorage
