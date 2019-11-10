@@ -15,7 +15,7 @@ class ListingsController < ApplicationController
   # Redirect to stop users from typing in page numbers in the url where no listings exist.
   def index
     @listings = Listing.paginate(page: params[:page], per_page: 8)
-    redirect_to root_path if @listings.empty?
+    # redirect_to root_path if @listings.empty?
     # @listings.length
   end
 

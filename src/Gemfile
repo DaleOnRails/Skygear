@@ -85,3 +85,6 @@ gem "font-ionicons-rails"
 
 gem 'will_paginate-bootstrap' 
 
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+
