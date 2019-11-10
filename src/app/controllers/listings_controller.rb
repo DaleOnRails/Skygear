@@ -16,7 +16,6 @@ class ListingsController < ApplicationController
   def index
     @listings = Listing.paginate(page: params[:page], per_page: 8)
     redirect_to root_path if @listings.empty?
-    @categories = Category.all.map { |c| [c.name, c.id] }
     # @listings.length
   end
 
@@ -29,19 +28,16 @@ class ListingsController < ApplicationController
   # GET /listings/new
   def new
     @listing = Listing.new
-    @categories = Category.all.map { |c| [c.name, c.id] }
   end
 
   # GET /listings/1/edit
   def edit
-    @categories = Category.all.map{|c| [ c.name, c.id ] }
   end
 
   # POST /listings
   # POST /listings.json
   def create
     @listing = Listing.new(listing_params)
-    @listing.category_id = params[:category_id]
     @listing.productimage.attach(listing_params[:productimage])
     @listing.user_id = current_user.id
 
@@ -59,8 +55,6 @@ class ListingsController < ApplicationController
   # PATCH/PUT /listings/1
   # PATCH/PUT /listings/1.json
   def update
-    @listing.category_id = params[:category_id]
-
     respond_to do |format|
       if @listing.update(listing_params)
         #15
