@@ -57,7 +57,7 @@ The skydive community is rich with amazing stories to tell and lessons to teach.
 
 Beginners in the sport can often choose a parachute system that does not fit either their body type or experience level, which are both extremely important aspects. Regarding the need for more commerce platforms to be available within the industry, I have personally found struggle in finding the right parachute system for me when I was a beginner entering the sport. This is because adverts within the facebook platform are often quickly swamped due to the lack of filter based search options the site offers. Although not implemented due to time restraints, in the near future i plan to enable search filter options which allow a buyer to enter there body height, weight and jump experience to allow quick and easy browsing for products that fit the buyers need.
 
-===============================================================
+---
 
 # Application Description (RAQ - R11)
 
@@ -98,6 +98,12 @@ Authenticated users who wish to sell can do so via a simple, no-nonsense form to
 ![SkyGear Sitemap Screenshot](docs/img/marketplace_sitemap_screenshot.png)
 
 ## Screenshots
+
+# Slide 1
+This is slide 1
+---
+# Slide 2
+This is slide 2
 
 ![screenshot 1](docs/img/screenshot1.png)
 
