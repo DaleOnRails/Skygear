@@ -197,7 +197,7 @@ The will paginate gem was used to enable the pagination bar at the top of the li
 
 - As a user i want the ability to edit my account details such as password or email.
 
-- As a user i want to be able to easily find contact information if i have any enquiries or complaints for SkyGear.com.au
+- As a user i want to be able to easily find company contact information if i have any enquiries or complaints for SkyGear.com.au
 
 ## Mood Board
 
@@ -212,9 +212,7 @@ Link to the Pinterest Mood Board for 'Skygear': [Skygear Mood Board](https://pin
 *On larger devices (IPad to Desktop to above), the design layout consists of a four column layout for the listings. Whereas on the listing show page, the product image and description is side by side.*
 *Therefore i restricted the amount of different screen sized wireframes to 2 rather then wasting time creating duplicates.*
 
-Link to Figma Wireframes (Live Version:): [Iphone 8 - Wireframe 1](https://www.figma.com/file/95cv8xfDZZp0YdsYzS9s2C/Iphone-8?node-id=0%3A1)
-
-### Wireframe Screenshots
+### Wireframe Screenshots & Live Links
 
 #### Screen Size 1 - Iphone 7/8 Plus (414 x 736)
 
