@@ -98,8 +98,10 @@ Authenticated users who wish to sell can do so via a simple, no-nonsense form to
 
 ![SkyGear Sitemap Screenshot](docs/img/marketplace_sitemap_screenshot.png)
 
+## Screenshots
+
 <details>
-<summary> Screenshots </summary>
+<summary> View Screenshots Here! </summary>
 
 ![screenshot 1](docs/img/screenshot1.png)
 
@@ -130,10 +132,43 @@ Authenticated users who wish to sell can do so via a simple, no-nonsense form to
 
 ## Target audience
 
-## Tech stack (e.g. html, css, deployment platform, etc)
+The evident target audience my application is directed towards is the sporting demographic of the skydiving community, for beginner & experienced jumpers alike.
 
-**-------------------------------------------------------------------------------------------------------**
-**-------------------------------------------------------------------------------------------------------**
+## Tech Stack
+
+- HTML, CSS3, SCSS for visual styling
+- GitHub / Git for version control
+- Ruby-on-Rails for development
+- RSpec for testing
+- Cloudinary to handle image uploads and storage
+- Heroku for deployment
+- Rails Gems (see below) for extending functionalities beyond MVC
+
+## Third Party Applications Utilized
+
+> Detail any third party services that your App will use.
+
+- **Cloudinary Cloud Storage:** Other alternatives were considered such as AWS, Google Drive, etc. However Cloudinary was chosen for it's simplistic compatibility with Active Storage in rails to allow remote file uploads.
+
+- **Stripe:** For handling secure payment transactions and processing of credit card details. Very helpful to outsource credit card authentication and storage outside of the application to mitigate any security risks and remain PCI compliant. Stripe elements were used to create my own custom in-app' checkout form with validation.
+
+- **Heroku:** Network platform of choice configured with a database, connection to Cloudinary and Stripe.
+
+## Gem Dependencies
+
+- **gem 'devise':**
+Used to implement user authentication (log-in, log-out, edit profile, etc.)
+
+- **gem 'bootstrap-sass' ~> '3.4.1' & 'sass-rails' ~> '5.0':**
+Bootstrap was chosen over Bulma for styling as I find it's UI features more extensive. As well as the responsive grid system it incorporates I find it to be a very nice framework to work with.
+
+- **gem 'cloudinary':**
+Configures the rails application with the remote Cloudinary account to host images and file uploads.
+
+- **'will_paginate', '~> 3.1.1'**
+The will paginate gem was used to enable the pagination bar at the top of the listings index page (homepage).
+
+---
 
 # Design / Planning 
 
