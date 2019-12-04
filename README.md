@@ -166,38 +166,76 @@ The will paginate gem was used to enable the pagination bar at the top of the li
 
 - **Stripe:** For handling secure payment transactions and processing of credit card details. Very helpful to outsource credit card authentication and storage outside of the application to mitigate any security risks and remain PCI compliant. Stripe elements were used to create my own custom in-app' checkout form with validation.
 
-- **Heroku:** Network platform of choice configured with a database, connection to Cloudinary and Stripe.
+- **Heroku:** Deployment / Network platform of choice configured with a database, connection to Cloudinary and Stripe.
 
 ---
 ---
 
-# Design / Planning 
+# Design / Planning
 
-## User Stories
+## User Stories (RAQ - R12)
+
+**As a Seller:**
+
+- As a seller I want the ability to easily upload listings with just a few clicks.
+
+- As a seller I want the ability to view and manage all of my listings easily.
+
+- As a seller I want the ability to easily view my sales history
+
+- As a seller I want the ability to edit the information of my listings.
+
+- As a seller I want the ability to delete my Items if they are to become unavailable.
+
+**As a Buyer:**
+
+- As a buyer I want to easily view my purchase history.
+
+- As a buyer I want a simple no-nonsense checkout process.
+
+**As Any User:**
+
+- As a user i want the ability to edit my account details such as password or email.
+
+- As a user i want to be able to easily find contact information if i have any enquiries or complaints for SkyGear.com.au
 
 ## Mood Board
 
 Link to the Pinterest Mood Board for 'Skygear': [Skygear Mood Board](https://pin.it/junkj27ujyqolk)
 
-Screenshots:
+## Wireframes
 
+> More than five detailed and well designed wireframes provided, for several different screen sizes
 
-## Wireframes (*Five Versions For Various Screen Sizes*)
+Link to Figma Wireframes (Live Version:): [Iphone 8 - Wireframe 1](https://www.figma.com/file/95cv8xfDZZp0YdsYzS9s2C/Iphone-8?node-id=0%3A1)
 
-Link to Figma Wireframes (Live Version:): []()
+Link to Figma Wireframes PDF (Doc Version): []()
 
-Link to Figma Mockup PDF (Doc Version): []()
+### Wireframe Screenshots
 
-Screenshots:
+#### Screen Size 1 - Iphone 7/8 Plus (414 x 736)
 
+- **Page 1 - Listings Index / Homepage**
 
-## Mockup (*Five Versions For Various Screen Sizes*)
+![Iphone 8 - Wireframe 1](docs/img/Iphone 8-wireframe1.png)
 
-Link to Figma Mockup (Live Version): []()
+- **Page 2 - Listings Show Page**
 
-Link to Figma Mockup PDF (Doc Version): []()
+![Iphone 8 - Wireframe 2](docs/img/Iphone 8 - wireframe 2.png)
 
-Screenshots:
+- **Page 3 - 
+
+![Iphone 8 - Wireframe 2]()
+
+- **Page 4 - 
+
+![Iphone 8 - Wireframe 2]()
+
+- **Page 5 - 
+
+![Iphone 8 - Wireframe 2]()
+
+#### Screen Size 2 - Apple Ipad (414 x 736)
 
 
 ## Entity Relationship Diagram (ERD)
