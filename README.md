@@ -144,16 +144,6 @@ The evident target audience my application is directed towards is the sporting d
 - Heroku for deployment
 - Rails Gems (see below) for extending functionalities beyond MVC
 
-## Third Party Applications Utilized
-
-> Detail any third party services that your App will use.
-
-- **Cloudinary Cloud Storage:** Other alternatives were considered such as AWS, Google Drive, etc. However Cloudinary was chosen for it's simplistic compatibility with Active Storage in rails to allow remote file uploads.
-
-- **Stripe:** For handling secure payment transactions and processing of credit card details. Very helpful to outsource credit card authentication and storage outside of the application to mitigate any security risks and remain PCI compliant. Stripe elements were used to create my own custom in-app' checkout form with validation.
-
-- **Heroku:** Network platform of choice configured with a database, connection to Cloudinary and Stripe.
-
 ## Gem Dependencies
 
 - **gem 'devise':**
@@ -168,6 +158,17 @@ Configures the rails application with the remote Cloudinary account to host imag
 - **'will_paginate', '~> 3.1.1'**
 The will paginate gem was used to enable the pagination bar at the top of the listings index page (homepage).
 
+## Third Party Applications Utilized
+
+> Detail any third party services that your App will use.
+
+- **Cloudinary Cloud Storage:** Other alternatives were considered such as AWS, Google Drive, etc. However Cloudinary was chosen for it's simplistic compatibility with Active Storage in rails to allow remote file uploads.
+
+- **Stripe:** For handling secure payment transactions and processing of credit card details. Very helpful to outsource credit card authentication and storage outside of the application to mitigate any security risks and remain PCI compliant. Stripe elements were used to create my own custom in-app' checkout form with validation.
+
+- **Heroku:** Network platform of choice configured with a database, connection to Cloudinary and Stripe.
+
+---
 ---
 
 # Design / Planning 
