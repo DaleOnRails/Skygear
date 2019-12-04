@@ -1,224 +1,109 @@
-# ------------------------------------NON-README.md--To-Do-------------------------------------------
 
-**AFTER ASSIGNMENT SUBMISSION:** 
+# Coder Academy Two-Sided Marketplace Assessment - SkyGear
 
-- Find a way to error handle .odt, .tar and .zip content-type attachments 
+## A link to your deployed app (RAQ - R9)
 
+[Skygear.com.au](https://limitless-woodland-93821.herokuapp.com/)
 
-**MAIN:**---------------------------------------------
+## A link to your GitHub repository (RAQ - R10)
 
-*FEATURES*
+[Github Repository for Skygear](https://github.com/DaleOnRails/skygear)
 
-- Add dynamic styling to page links so that the link of current page is either unseen or different (active) color
-
-- Have *TWO* options for buying items
- => *1.* Buy it now option (user buys item at listing price and goes straight to payment) **DONE**
- => *2.* Make an offer option (Same as gumtree, user enters offer price with a message to the seller included)
- => *3.* Allow 'checkout as guest' option.
-
-- Have a 'discussion/comments' section for listings where buyers can ask sellers questions about the listing. 
-=> *1.* This will be displayed publicly so that it may answer questions other buyers may have. 
-=> *2.* Only signed in users will be able to comment on listings!
-
-- Have a *Wishlist* feature in (name) drop down menu section. Plus love-heart/wishlist buttons on items to allow users to add items to the wishlist!!
-
-- Enable a Seller Rating System using 'upvote' gem or something similar!
-
------------------------------------------------------
-
-**VALIDATIONS/SECURITY**
-.......................................
-
--aaaaaaaaaaa bbbbbbbbbbbbb
-
-- Add phone number validations for order form
-
-
-**EXTRA:**---------------------------------------------
-
-- Install "Friendly ID" Gem to application and configure routes to display as i want!
-
-- Assign roles to users with rolify gem (see rails authentication app and canvas!!!)
-
-**TESTING:**--------------------------------------------
-
-- 'Require' rubocop-rspec for the gem/extension to work with rspec (follow instructions on github homepage)
-
-- 'Require' RSpec and cover code with testing 
-
-**WEB-DESIGN:**
-
-**Web-Design-To-Do:**-------------------------------------
-
-- Have a splash page with background image covering whole screen.
-=> *1.* Will have two 'enter' boxes - SHOP / CHAT
-=> *2.* (See 'definitely not etsy' github assignment from last cohort for reference!)
-
-- Add overlay effect to website banner (default dark and light when user hovers over it)
-
-- Make shop banner a slide-deck with multiple slides advertising what features I have!!!
-
-- Get feedback on shop banner to see if it has to much text or not.
-
-- Get different sized versions of all site images to use for different devices to increase load time
-
-- Enable preload so that users don't see the images loading when viewing my site!!!
-
-
-**Color list Scheme For Site:**-----------------------------
-
------DEPRECATED / BACKUP SCHEME---------
-
-*Primary Color:* #F5F5F1
-
-- Body / Page Background Color
-
-*Secondary Color:* #EFEFEB
-
-- Navbar Background Color
-
-*Third Color:* #F76C6C
-
-- 'Skygear' Logo Color
-
-*Fourth Color:* #0192B5
-
-- Page Links Color
-
-----NEW COLOUR SCHEME------
-
-*Primary Color:* #F5F5F1
-
-- Body / Page Background Color
-
-*Secondary Color:* #e7dfdd
-
-- Navbar Background Color
-
-*Third Color:* #C06014
-
-- 'Skygear' Logo Color / Important Highlights
-
-*Fourth Color:* #000000
-
-- Page Links Color
-
-*Fifth Colour:* #EDDBCD 
-
-
-**Font Pair for Site:**
-
-Primary Text:
-*Montserrat*
-
-- Logo 
-- Headings 
-
-Secondary Text:
-*Merriweather*
-
-- Descriptions etc.
-
-
-**Web Design IDEAS:**-------------------------------------
-
-1. Could have three bouncing fullstops pop up at end of skygear logo to simulate loading when user clicks 
-Inspiration: https://waaark.com/vision/
-
-2. Could have strikethrough on link the user is currently on to show current page instead of color change.
-
-**Logo Ideas:**
-
-1. Shark for the logo
-
-**-------------------------------------------------------------------------------------------------------**
-**-------------------------------------------------------------------------------------------------------**
-# ------------------------------------NON-README.md--Assignment-Instructions---------------------------------
-
-
-## Slide deck (Repo-location: ppt/)
-
-You must present the plan for your website and submit your slides which will form the basis of a professional report.
-
-The presentation and associated Slide deck should include:
-
-1. An outline of the problem you were trying to solve by building this particular marketplace app, and why it’s a problem that needs solving.
-
-2. A walk through of your app (write a speech beforehand to follow along with).
-
-**Presentation Requirements:**
-
-1. Be no longer than 10 minutes.
-
-2. Utilise the submitted Slide deck.
-
-3. Answer any questions asked by my Instructor and cohort.
-
-
-**-----------------------------------------------------------------------------------------------------**
-**-----------------------------------------------------------------------------------------------------**
-**-----------------------------------------------README-DOCUMENTATION---------------------------------**
-
-# Documentation 
-
-**Issues My Application Is Addressing**
+# Problems Being Addressed & Application Purpose (RAQ - R7)
 
 ---*Brief*---
 
-Identified problems: 
+Identified problems:
+
 - The australian skydive industry is distinctly undeveloped in the technology sector.
-- The amount of platforms available to upload your own listings for pre-owned skydive gear is extremely scarce. 
+
+- The amount of platforms available to upload your own listings for pre-owned skydive gear is extremely scarce.
+
 - The only online platforms available for communication (discussions, blogs, event announcements) in the skydive community are facebook groups.
 
 ---*Extensive*---
 
-Currently there are only **EIGHT** online stores selling skydive equipment nationwide. Out of these eight stores,only **FIVE** sell pre-owned equipment and out of these 5, only **TWO** offer the ability for the user to upload their own listings. 
+Currently there are only **EIGHT** online stores selling skydive equipment nationwide. Out of these eight stores,only **FIVE** sell pre-owned equipment and out of these 5, only **TWO** offer the ability for the user to upload their own listings.
 
-To further elaborate... Out of these two who offer this ability, one is simply a classifieds section in the Australian Skydiver Magazine (ASM) and the other is a Facebook group. The ASM does not allow images and is only published once a month, resulting in a longer wait time until the user can potentially have their item sold. 
+To further elaborate... Out of these two who offer this ability, one is simply a classifieds section in the Australian Skydiver Magazine (ASM) and the other is a Facebook group. The ASM does not allow images and is only published once a month, resulting in a longer wait time until the user can potentially have their item sold.
 
-Furthermore, as a result of the latter being a Facebook group, it does not facilitate the user with easy navigation and other general key UX & UI features that a fully fledged marketplace applications utilize. 
+Furthermore, as a result of the latter being a Facebook group, it does not facilitate the user with easy navigation and other general key UX & UI features that a fully fledged marketplace applications utilize.
 
-Currently, this facebook group "Skydiving Gear for Sale (New and Used) Australia" is the market leading platform for selling skydive gear in australia. With currently 10,779 members, it is by far receiving the heaviest traffick out of any other online sector in australia when it comes to commerce of skydive equipment. 
+Currently, this facebook group "Skydiving Gear for Sale (New and Used) Australia" is the market leading platform for selling skydive gear in australia. With currently 10,779 members, it is by far receiving the heaviest traffick out of any other online sector in australia when it comes to commerce of skydive equipment.
 
-After spending time analyzing this platform, I have been able to learn its **strengths** & **disadvantages**. My applications features are based on incorporating the strengths and compensating for its disadvantages so that I will able to compete with it.
+After spending time analyzing this platform, I have been able to learn its **strengths** & **disadvantages** so that i can have the best chance in disrupting the market. My applications features are based on incorporating the strengths and compensating for its disadvantages so that I will able to compete with it.
 
 Further notes on this can be found in the docs/ folder in this repository:
+
 - [Feature Planning Document](docs/deciding-features.odt)
+
 - [Market Research Document](docs/market-research.odt)
+
 - [Marketplace Research Document](docs/marketplace-definition.odt)
 
-**Reason Why These Are Problems That Need Addressing:**
+## Why Is It A Problem That Needs Solving? (RAQ - R8)
 
--
+These problems are worthy of a solution due to:
 
--
+- Security - Lack of buyer security.
 
--
+Personally I have found it unsettling that the primary safety net for buying equipment from the facebook platform is 'buyer beware'. Although quickly identified in by the community, scammers are sometimes attracted to the platform due to the lack of a secure payment gateway. My application will address this need by implementing the secure 'stripe' payment gateway, rather then forcing sales to be conducted via the sellers discretion outside of the platform.
 
--
+- Community - Lack of Channels Available for Community Outreach
 
+The skydive community is rich with amazing stories to tell and lessons to teach. Without an organized community based platform these stories are often never told online due to the lack of outlets for blogging, mentoring and all-round communicating. Although I was not able to implement the community based features I had planned due to time restraints. This is a viable problem i hope to solve in the near future.
 
-**A link to your deployed app:** [Skygear.com.au](https://limitless-woodland-93821.herokuapp.com/)
+- Safety - Beginners Struggle to Find Equipment That Fits Their Needs
 
-**A link to your GitHub repository:** [Github Repository for Skygear](https://github.com/fudomyo-hub/skygear)
-
-## Description 
-
-**Purpose:**  
-To centralize and facilitate the buying and selling of pre-owned skydiving gear in Australia, on one easy to use platform. Furthermore, this marketplace will bring the entire Australian skydiving community under one roof by implementing various community driven features.
-
-**Functionality / features:**
-
-**Sitemap:**
-
-**Screenshots:**
-
-**Target audience:**
-
-**Tech stack (e.g. html, css, deployment platform, etc):**
-
+Beginners in the sport can often choose a parachute system that does not fit either their body type or experience level, which are both extremely important aspects. Regarding the need for more commerce platforms to be available within the industry, I have personally found struggle in finding the right parachute system for me when I was a beginner entering the sport. This is because adverts within the facebook platform are often quickly swamped due to the lack of filter based search options the site offers. Although not implemented due to time restraints, in the near future i plan to enable search filter options which allow a buyer to enter there body height, weight and jump experience to allow quick and easy browsing for products that fit the buyers need.
 
 **-------------------------------------------------------------------------------------------------------**
+**-------------------------------------------------------------------------------------------------------**
+
+# Application Description (RAQ - R11)
+
+## Purpose
+
+To centralize and facilitate the commerce of pre-owned skydiving gear in Australia, on one easy to use platform. Furthermore, this marketplace will bring the entire Australian skydiving community under one roof by implementing various community driven features.
+
+## Features
+
+SkyGear allows any user to peruse products, although only authenticated users will be able to purchase and sell products. Sellers can quickly edit and view all their listings via a user friendly dashboard. Also in respect to buyer and seller user experience, other dashboards are also available such as a 'Sales History' board for sellers and a 'Purchase History' board for buyers.
+
+Buyers are able to pay for their order using Stripe as a third party for payment. The payment functionality is implemented via a custom built payment details form upon checkout, which also includes live validation of credit card numbers using javascript and stripe elements.
+
+Authenticated users who wish to sell can do so via a simple, no-nonsense form to list their items. This form incorporates their product image along with form fields for descriptive details such as title, price, location and description.Other features implemented within SkyGear include a simple 'Contact' & 'About' page for the purpose of credibility due to being a new and upcoming platform.
+
+## Functionality
+
+- User account creation and authentication
+
+- User can edit their own profile settings including email, password and name. It is realized that this functionality is a crucial security concern therefore, upon changes, authentication must be provided via their current password.
+
+- User can CRUD listings within the 'Manage Listings' dashboard. Authentication is implemented with this functionality via ensuring that a CRUD operation is only displayed & allowed on products that the user is selling.
+
+- In respect to user experience, any user is able to buy and sell products assuming that they have created an account. I.e, There is no need to create a separate 'seller' account.
+
+- Basic pagination functionality is implemented on the home page to help the product browsing experience of the buyer. This was also implemented to help handle the foreseen user-interface issues that a large quantity of items could create.
+
+- Product Images are uploaded via the user directly through the browser and stored in the third party media management service, 'Cloudinary'.
+
+- Listings are purchased individually via the third party payment gateway 'Stripe'. Includes an in-built custom checkout form complete with live validation of payment details via incorporating 'stripe elements'.
+
+- Image file type validation when uploading (only accepts .png and .jpg file extensions).
+
+*However at the current build status, there is a vulnerability of allowing both, .odt & .tar (script files) to pass through the validation process. (Hypothesis is that even though my model-level validation is designed to error handle any other file that is not either .jpg or .png... It still wont work as expected due to active-storage not having such files (.tar & .odt) defined as a mime-type. Therefore, because active-storage doesn't know what these file types are, my validations weren't working against them.*
+
+## Sitemap
+
+![SkyGear Sitemap Screenshot](docs/img/marketplace_sitemap_screenshot.png)
+
+## Screenshots
+
+## Target audience
+
+## Tech stack (e.g. html, css, deployment platform, etc)
+
 **-------------------------------------------------------------------------------------------------------**
 **-------------------------------------------------------------------------------------------------------**
 
