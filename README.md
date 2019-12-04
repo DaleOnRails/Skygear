@@ -99,6 +99,32 @@ Authenticated users who wish to sell can do so via a simple, no-nonsense form to
 
 ## Screenshots
 
+![screenshot 1](docs/img/screenshot1.png)
+
+![screenshot 2](docs/img/screenshot2.png)
+
+![screenshot 3](docs/img/screenshot3.png)
+
+![screenshot 4](docs/img/screenshot4.png)
+
+![screenshot 5](docs/img/screenshot5.png)
+
+![screenshot 6](docs/img/screenshot6.png)
+
+![screenshot 7](docs/img/screenshot7.png)
+
+![screenshot 8](docs/img/screenshot8.png)
+
+![screenshot 9](docs/img/screenshot9.png)
+
+![screenshot 10](docs/img/screenshot10.png)
+
+![screenshot 11](docs/img/screenshot11.png)
+
+![screenshot 12](docs/img/screenshot12.png)
+
+![screenshot 13](docs/img/screenshot13.png)
+
 ## Target audience
 
 ## Tech stack (e.g. html, css, deployment platform, etc)
