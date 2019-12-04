@@ -207,15 +207,18 @@ Link to the Pinterest Mood Board for 'Skygear': [Skygear Mood Board](https://pin
 
 > More than five detailed and well designed wireframes provided, for several different screen sizes
 
-Link to Figma Wireframes (Live Version:): [Iphone 8 - Wireframe 1](https://www.figma.com/file/95cv8xfDZZp0YdsYzS9s2C/Iphone-8?node-id=0%3A1)
+*Due to my sites content being relatively responsive there are only two different looking layouts that my application has. On small devices (mobile) the listings and listing show page are stacked into a single column layout and the navbar compacts into a drop down menu via the hamburger icon.*
 
-Link to Figma Wireframes PDF (Doc Version): []()
+*On larger devices (IPad to Desktop to above), the design layout consists of a four column layout for the listings. Whereas on the listing show page, the product image and description is side by side.*
+*Therefore i restricted the amount of different screen sized wireframes to 2 rather then wasting time creating duplicates.*
+
+Link to Figma Wireframes (Live Version:): [Iphone 8 - Wireframe 1](https://www.figma.com/file/95cv8xfDZZp0YdsYzS9s2C/Iphone-8?node-id=0%3A1)
 
 ### Wireframe Screenshots
 
 #### Screen Size 1 - Iphone 7/8 Plus (414 x 736)
 
-Link: [Iphone 8 Wireframe Link](https://www.figma.com/file/95cv8xfDZZp0YdsYzS9s2C/Iphone-8?node-id=6%3A2)
+Link: [Mobile Device - Wireframe Link](https://www.figma.com/file/95cv8xfDZZp0YdsYzS9s2C/Iphone-8?node-id=6%3A2)
 
 - Page 1 - Listings Index / Homepage
 
@@ -248,9 +251,9 @@ Link: [Iphone 8 Wireframe Link](https://www.figma.com/file/95cv8xfDZZp0YdsYzS9s2
 ---
 ---
 
-#### Screen Size 2 - Apple IPad (1024 x 1366)
+#### Screen Size 2 - IPad => Desktop (1024 x 1366 - 1718 x 1080)
 
-Link: [Apple IPad Wireframe Link Wireframe Link]()
+Link: [Large Device - Wireframe Link](https://www.figma.com/file/TUJeOYuecwWcwY2S7A91AS/IPad-and-Desktop?node-id=15%3A2190)
 
 - Page 1 - Listings Index / Homepage
 
