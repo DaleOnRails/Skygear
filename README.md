@@ -287,38 +287,88 @@ Link: [Large Device - Wireframe Link](https://www.figma.com/file/TUJeOYuecwWcwY2
 </details>
 
 ---
+---
 
-## Entity Relationship Diagram (ERD)
+## Entity Relationship Diagram (RAQ - R14)
 
-(DEV-NOTE: Use Figma's Flow Chart Maker)
+![skygear ERD Diagram](docs/img/SkyGear-ERD-Diagram.png)
 
-## Entity Relationship (ERD) Description / Abstractions
+## High Level Components (RAQ - R15)
 
-**Explain the different high-level components (abstractions) in your app:**
+> Explain the different high-level components (abstractions) in your app
 
-**Detail any third party services that your app will use:**
+**Models**
 
-**Describe your projects models in terms of the relationships (active record associations) they have with each other:**
+The marketplace application utilizes 3 primary models: User, Listing and Order. The User model was created using Devise. The models were designed around the flow of the application where the consumer would create an account, creating a new User entry. They would then add an item for sale (listing) which, upon creation, would have an associated user_id attached. This is how my application knows what listing belongs to which seller and the basic premise of how my authenticated CRUD actions on listings operate. Just through these steps, A seller can have many listings, a buyer can have an order, which, in turn belong to its seller.
 
-**Discuss the database relations to be implemented in your application:**
+**Controllers**
 
-**Provide your database schema design:**
+The application uses 3 controllers: listings, orders & pages.
+
+Listings Controller - The Listings controller handles the creation, modification, deletion and indexing of a User's Listing.
+
+Orders Controller - The Order controller deals with the creation, adding of a Listing to an Order, and checkout processing.
+
+Pages Controller - As a result of this controller being responsible for the view files of my application, it is very simplistic. All this controller includes is two hollow methods: 'about' and 'contact' (sharing the same names as the view files, as per rails convention)
+
+## Describe your projects models in terms of the relationships (active record associations) they have with each other (RAQ - R17)
+
+**Relationships implemented in the order model:**
+
+The order model only consists of one-to-one connections to other models. It belongs_to: listing, buyer & seller. The latter two having the class name of 'User'.
+
+**Relationships implemented in the listing model:**
+
+The listing model also consists of one-to-one connections including: 
+
+- has_one_attached :productimage (ment to use has_many for a product gallery, need to change this).
+
+- belongs_to :user; and
+
+- has_one :order (Being a primarily second hand commerce platform it would be rare that a seller has more then one of the same item, although i may change this i the future)
+
+**Relationships implemented in the user model:**
+
+Unlike the former mentioned models, the user model utilizes one-to-many connections with other models, including:
+
+- has_many :listings, dependent: :destroy
+
+- has_many :sales, class_name: "Order", foreign_key: "seller_id"
+
+- has_many :purchases, class_name: "Order", foreign_key: "buyer_id"
+
+Users will have orders they purchased and orders they sold. The 'foreign_key' tells rails to use the seller_id to identify which user sold the item.
+
+## Discuss the database relations to be implemented in your application (RAQ - R18)
+
+- A listing belongs_to a user & a user has_many listings: a one to many relationship where a single user can create as many listings as they like and as they are dependent on the user model, upon account deletion, the listings will also be purged from the database .
+
+- A listing has_one order and the order_id is associated to a listing upon an order being created.
+
+- Listing has_one_attached productimage: a one to one relationship using cloudinary to upload and relate a single image to a listing.
+
+- An order belongs_to a user & a user has_many orders: (sales & purchases). This has_many association allowed me to create the sales history dashboard and purchase history dashboard by indexing all orders for that particular user.
+
+## Database Schema Design (RAQ - R19)
+
+> Provide your database schema design
+
+![Skygear Database Schema Design](docs/img/database-schema-design.png)
 
 ## Project Management
 
-**Describe the way tasks are allocated and tracked in your project:**
+> (RAQ - R20) Describe the way tasks are allocated and tracked in your project
 
-Screenshots:
+Trello board is used to log MVP requirements, extensible nice-to-have features, user stories and to track each item as it has been built.
 
+Trello is a task management app that gives you a visual overview of what is being worked on and who is working on it. It used the Kanban system to keep production levels high and maintain flexibility with three primary stages that were used, TO-DO, DOING & DONE. ... Each post-it represents different tasks involved in the development of this assignment. The way i decided on tasks to allocate to these post-it's is simply by dissecting and copy and pasting the content of the course criteria provided to us.
 
-#  Challenges Faced / Lessons Learned
+**Link to Trello Project Management Board:**
 
--
+[Trello Board Link](https://trello.com/b/vnzYXRzS/term2-a1-marketplace)
 
--
+**Trello Screenshots:**
 
--
+![Trello pic 1](docs/img/trello-pic1.png)
 
--
-
--
+![Trello pic 2](docs/img/trello-pic2.png)
