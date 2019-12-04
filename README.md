@@ -215,28 +215,73 @@ Link to Figma Wireframes PDF (Doc Version): []()
 
 #### Screen Size 1 - Iphone 7/8 Plus (414 x 736)
 
-- **Page 1 - Listings Index / Homepage**
+Link: [Iphone 8 Wireframe Link](https://www.figma.com/file/95cv8xfDZZp0YdsYzS9s2C/Iphone-8?node-id=6%3A2)
+
+- Page 1 - Listings Index / Homepage
 
 ![Iphone 8 - Wireframe 1](docs/img/Iphone-8-wireframe1.png)
 
-- **Page 2 - Listings Show Page**
+---
+
+- Page 2 - Listings Show Page
 
 ![Iphone 8 - Wireframe 2](docs/img/Iphone-8-wireframe-2.png)
 
-- **Page 3 - 
+---
 
-![Iphone 8 - Wireframe 2]()
+- Page 3 - New Listing Page
 
-- **Page 4 - 
+![Iphone 8 - Wireframe 3](docs/img/iphone8-wireframe-3.png)
 
-![Iphone 8 - Wireframe 2]()
+---
 
-- **Page 5 - 
+- Page 4 - About Page
 
-![Iphone 8 - Wireframe 2]()
+![Iphone 8 - Wireframe 4](docs/img/iphone8-wireframe-4.png)
 
-#### Screen Size 2 - Apple Ipad (414 x 736)
+---
 
+- Page 5 - Contact Page
+
+![Iphone 8 - Wireframe 5](docs/img/iphone8-wireframe-5.png)
+
+---
+---
+
+#### Screen Size 2 - Apple IPad (1024 x 1366)
+
+Link: [Apple IPad Wireframe Link Wireframe Link]()
+
+- Page 1 - Listings Index / Homepage
+
+![Iphone 8 - Wireframe 1](docs/img/Iphone-8-wireframe1.png)
+
+---
+
+- Page 2 - Listings Show Page
+
+![Iphone 8 - Wireframe 2](docs/img/Iphone-8-wireframe-2.png)
+
+---
+
+- Page 3 - New Listing Page
+
+![Iphone 8 - Wireframe 3](docs/img/iphone8-wireframe-3.png)
+
+---
+
+- Page 4 - About Page
+
+![Iphone 8 - Wireframe 4](docs/img/iphone8-wireframe-4.png)
+
+---
+
+- Page 5 - Contact Page
+
+![Iphone 8 - Wireframe 5](docs/img/iphone8-wireframe-5.png)
+
+---
+---
 
 ## Entity Relationship Diagram (ERD)
 
