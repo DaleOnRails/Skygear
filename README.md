@@ -214,7 +214,10 @@ Link to the Pinterest Mood Board for 'Skygear': [Skygear Mood Board](https://pin
 
 ### Wireframe Screenshots & Live Links
 
-#### Screen Size 1 - Iphone 7/8 Plus (414 x 736)
+<details>
+<summary> View Wireframes Here! </summary>
+
+#### Screen Size 1 - Mobile - Iphone 7/8 Plus (414 x 736)
 
 Link: [Mobile Device - Wireframe Link](https://www.figma.com/file/95cv8xfDZZp0YdsYzS9s2C/Iphone-8?node-id=6%3A2)
 
@@ -281,7 +284,8 @@ Link: [Large Device - Wireframe Link](https://www.figma.com/file/TUJeOYuecwWcwY2
 
 ![Iphone 8 - Wireframe 5](docs/img/large-device-wireframe5.png)
 
----
+</details>
+
 ---
 
 ## Entity Relationship Diagram (ERD)
