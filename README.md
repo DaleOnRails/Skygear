@@ -217,11 +217,11 @@ Link to Figma Wireframes PDF (Doc Version): []()
 
 - **Page 1 - Listings Index / Homepage**
 
-![Iphone 8 - Wireframe 1](docs/img/Iphone 8-wireframe1.png)
+![Iphone 8 - Wireframe 1](docs/img/Iphone-8-wireframe1.png)
 
 - **Page 2 - Listings Show Page**
 
-![Iphone 8 - Wireframe 2](docs/img/Iphone 8 - wireframe 2.png)
+![Iphone 8 - Wireframe 2](docs/img/Iphone-8-wireframe-2.png)
 
 - **Page 3 - 
 
