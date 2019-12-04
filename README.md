@@ -27,6 +27,7 @@
 -----------------------------------------------------
 
 **VALIDATIONS/SECURITY**
+.......................................
 
 - Add phone number validations for order form
 
