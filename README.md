@@ -99,7 +99,7 @@ Authenticated users who wish to sell can do so via a simple, no-nonsense form to
 ![SkyGear Sitemap Screenshot](docs/img/marketplace_sitemap_screenshot.png)
 
 <details>
-<summary> ## Screenshots </summary>
+<summary> Screenshots </summary>
 
 ![screenshot 1](docs/img/screenshot1.png)
 
