@@ -257,31 +257,31 @@ Link: [Large Device - Wireframe Link](https://www.figma.com/file/TUJeOYuecwWcwY2
 
 - Page 1 - Listings Index / Homepage
 
-![Iphone 8 - Wireframe 1](docs/img/Iphone-8-wireframe1.png)
+![Iphone 8 - Wireframe 1](docs/img/large-device-wireframe1.png)
 
 ---
 
 - Page 2 - Listings Show Page
 
-![Iphone 8 - Wireframe 2](docs/img/Iphone-8-wireframe-2.png)
+![Iphone 8 - Wireframe 2](docs/img/large-device-wireframe2.png)
 
 ---
 
-- Page 3 - New Listing Page
+- Page 3 - Manage Listings Dashboard
 
-![Iphone 8 - Wireframe 3](docs/img/iphone8-wireframe-3.png)
-
----
-
-- Page 4 - About Page
-
-![Iphone 8 - Wireframe 4](docs/img/iphone8-wireframe-4.png)
+![Iphone 8 - Wireframe 3](docs/img/large-device-wireframe3.png)
 
 ---
 
-- Page 5 - Contact Page
+- Page 4 - Purchase History Dashboard
 
-![Iphone 8 - Wireframe 5](docs/img/iphone8-wireframe-5.png)
+![Iphone 8 - Wireframe 4](docs/img/large-device-wireframe4.png)
+
+---
+
+- Page 5 - Sales History Dashboard
+
+![Iphone 8 - Wireframe 5](docs/img/large-device-wireframe5.png)
 
 ---
 ---
